@@ -10,7 +10,7 @@ file_list=[
     'src/helper.py',
     'setup.py',
     '.env',
-    'research/trials.py',
+    'research/trials.ipynb',
     'app.py',
     'requirements.txt',
 ]
@@ -28,4 +28,4 @@ for filepath in file_list:
             pass
             logging.info(f"creating file {filepath}")
     else:
-        logging.INFO(f"{filepath} already exists")
+        logging.info(f"{filepath} already exists")
