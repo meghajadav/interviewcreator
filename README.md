@@ -22,3 +22,41 @@ another folder research.py which contains trials.ipynb for experiments.
 pip install -r requirements.txt
 
 ### -e . in requirements.txt tells the python to see for setup.py and install the .py as a local package
+
+## Command to deploy on EC2 instance
+
+sudo apt update
+
+sudo apt-get update
+
+sudo apt upgrade -y
+
+sudo apt install git curl unzip tar make sudo vim wget -y
+
+git clone 'repository'
+
+ls - to see if repository is available
+
+cd interviewcreator
+
+ls
+
+touch .env
+
+ls -al
+
+vim .env
+
+## command for save .env after updating 
+shift+: wq and enter
+
+## install python
+sudo apt install python3-pip
+
+python3 -m venv .venv
+
+source .venv/bin/activate
+
+pip3 install -r requirements.txt
+
+python3 app.py
